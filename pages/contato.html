@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Ícone -->
+    <link rel="shortcut icon" href="../img/logo.ico" type="image/x-icon">
+
+    <title>Contato Marco'sTV_RS</title>
+</head>
+
+<body class="page-layout">
+
+    <header id="navbar" class="display-flex">
+        <section class="logo">
+            <a href="../index.html">
+                <img src="../img/texto-logo-branco.png" alt="Logo Marco'sTV_RS" title="Logo Marco'sTV_RS">
+            </a>
+        </section>
+
+        <section class="nav-links">
+            <a href="../index.html">Início</a>
+            <a href="noticias.html">Notícias</a>
+            <a href="guias.html">Guias</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html" class="active">Contato</a>
+        </section>
+
+    </header>
+
+    <main>
+
+        <!-- Hero - Apresentação -->
+        <section id="hero">
+            <div class="container display-grid hero-layout">
+                <article class="hero-content">
+                    <h1>Entre em Contato</h1>
+                </article>
+            </div>
+        </section>
+
+        <section id="contato" class="container contato-layout">
+
+            <form id="form-contato">
+
+                <div>
+                    <label for="nome">Nome</label>
+                    <input id="nome" type="text" placeholder="Seu nome" required>
+                </div>
+
+                <div>
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email" placeholder="seu@email.com" required>
+                </div>
+
+                <div>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" rows="5" placeholder="Escreva aqui..." required></textarea>
+                </div>
+                <div>
+                    <button class="btn btn-primario" type="submit">Enviar mensagem</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <img src="../img/logo-branco.png" alt="Logo Marco'sTV_RS" title="Logo Marco'sTV_RS">
+        <p>&copy; Marco'sTV_RS - Desenvolvimento Web e IHC</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>

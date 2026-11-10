@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Ícone -->
+    <link rel="shortcut icon" href="../img/logo.ico" type="image/x-icon">
+
+    <title>Guias de RuneScape - Marco'sTV_RS</title>
+</head>
+
+<body class="page-layout">
+
+    <header id="navbar" class="display-flex">
+        <section class="logo">
+            <a href="../index.html">
+                <img src="../img/texto-logo-branco.png" alt="Logo Marco'sTV_RS" title="Logo Marco'sTV_RS">
+            </a>
+        </section>
+
+        <section class="nav-links">
+            <a href="../index.html">Início</a>
+            <a href="noticias.html">Notícias</a>
+            <a href="guias.html" class="active">Guias</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+        </section>
+
+    </header>
+
+    <main>
+
+        <!-- Hero - Apresentação -->
+        <section id="hero">
+            <div class="container display-grid hero-layout">
+                <article class="hero-content">
+                    <h1>Guias Atualizados</h1>
+                </article>
+            </div>
+        </section>
+
+        <!-- Últimos Guias -->
+        <section id="ultimos-guias" class="container">
+            <div class="section-menu">
+                <h2>Últimos Guias</h2>
+                <div class="section-filtros">
+                    <button class="btn filtro ativo" data-filtro="todos">Todos</button>
+                    <button class="btn filtro" data-filtro="iniciantes">Iniciantes</button>
+                    <button class="btn filtro" data-filtro="missoes">Missões</button>
+                    <button class="btn filtro" data-filtro="chefes">Chefes</button>
+                    <button class="btn filtro" data-filtro="skills">Skills</button>
+                </div>
+            </div>
+            <div class="display-grid guias-layout">
+
+                <a href="#" data-categoria="missoes">
+                    <article class="card">
+                        <img src="../img/guia-1.jpg" alt="Missões para iniciantes: as primeiras aventuras de Gielinor">
+                        <h3 class="card-titulo">Missões para iniciantes: as primeiras aventuras de Gielinor</h3>
+                        <p class="card-paragrafo">
+                            Escolha missões que dão XP e liberam áreas novas logo no começo. Veja quais valem a pena
+                            para quem acabou de sair do tutorial.
+                        </p>
+                        <p>Categoria: Missões</p>
+                    </article>
+                </a>
+
+                <a href="#" data-categoria="iniciantes">
+                    <article class="card">
+                        <img src="../img/guia-2.jpg" alt="Primeiros passos no RuneScape: por onde começar">
+                        <h3 class="card-titulo">Primeiros passos no RuneScape: por onde começar</h3>
+                        <p class="card-paragrafo">
+                            Um roteiro simples para quem acabou de criar a conta: o que fazer primeiro, como se
+                            localizar em Gielinor e como evitar os erros mais comuns.
+                        </p>
+                        <p>Categoria: Iniciantes</p>
+                    </article>
+                </a>
+
+                <a href="#" data-categoria="chefes">
+                    <article class="card">
+                        <img src="../img/guia-3.jpg" alt="Seu primeiro chefe: como se preparar para a batalha">
+                        <h3 class="card-titulo">Seu primeiro chefe: como se preparar para a batalha</h3>
+                        <p class="card-paragrafo">
+                            Antes de enfrentar um chefe, prepare equipamento, comida e estratégia. Este guia mostra o
+                            essencial para sair vivo da primeira luta.
+                        </p>
+                        <p>Categoria: Chefes</p>
+                    </article>
+                </a>
+
+                <a href="#" data-categoria="skills">
+                    <article class="card">
+                        <img src="../img/guia-4.jpg" alt="Necromancy para iniciantes: conhecendo a skill">
+                        <h3 class="card-titulo">Necromancy para iniciantes: conhecendo a skill</h3>
+                        <p class="card-paragrafo">
+                            A Necromancy chegou ao jogo em 2023 e virou uma das skills mais comentadas. Entenda como ela
+                            funciona e dê os primeiros passos.
+                        </p>
+                        <p>Categoria: Skills</p>
+                    </article>
+                </a>
+
+                <a href="#" data-categoria="iniciantes">
+                    <article class="card">
+                        <img src="../img/guia-5.jpg" alt="Interface e controles: ajuste o jogo do seu jeito">
+                        <h3 class="card-titulo">Interface e controles: ajuste o jogo do seu jeito</h3>
+                        <p class="card-paragrafo">
+                            Configure a interface, os atalhos e as opções do jogo para jogar com mais conforto desde o
+                            primeiro dia.
+                        </p>
+                        <p>Categoria: Iniciantes</p>
+                    </article>
+                </a>
+
+                <a href="#" data-categoria="skills">
+                    <article class="card">
+                        <img src="../img/guia-6.jpg" alt="Quais skills treinar primeiro: um roteiro simples">
+                        <h3 class="card-titulo">Quais skills treinar primeiro: um roteiro simples</h3>
+                        <p class="card-paragrafo">
+                            Não sabe por onde começar a treinar? Veja um caminho simples para escolher as primeiras
+                            skills e ganhar XP sem se perder.
+                        </p>
+                        <p>Categoria: Skills</p>
+                    </article>
+                </a>
+
+            </div>
+
+            <div class="section-links">
+                <a href="#" class="btn btn-primario">Ver Mais</a>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <img src="../img/logo-branco.png" alt="Logo Marco'sTV_RS" title="Logo Marco'sTV_RS">
+        <p>&copy; Marco'sTV_RS - Desenvolvimento Web e IHC</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>

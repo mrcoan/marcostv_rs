@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Ícone -->
+    <link rel="shortcut icon" href="../img/logo.ico" type="image/x-icon">
+
+    <title>Notícias de RuneScape - Marco'sTV_RS</title>
+</head>
+
+<body class="page-layout">
+
+    <header id="navbar" class="display-flex">
+        <section class="logo">
+            <a href="../index.html">
+                <img src="../img/texto-logo-branco.png" alt="Logo Marco'sTV_RS" title="Logo Marco'sTV_RS">
+            </a>
+        </section>
+
+        <section class="nav-links">
+            <a href="../index.html">Início</a>
+            <a href="noticias.html" class="active">Notícias</a>
+            <a href="guias.html">Guias</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+        </section>
+
+    </header>
+
+    <main>
+
+        <!-- Hero - Apresentação -->
+        <section id="hero">
+            <div class="container display-grid hero-layout">
+                <article class="hero-content">
+                    <h1>Notícias e Atualizações</h1>
+                </article>
+            </div>
+        </section>
+
+        <!-- Últimas Notícias -->
+        <section id="ultimas-noticias" class="container">
+            <div class="section-menu">
+                <h2>Últimas Notícias</h2>
+                <div class="section-filtros">
+                    <button class="btn filtro ativo" data-filtro="todos">Todos</button>
+                    <button class="btn filtro" data-filtro="comunidade">Comunidade</button>
+                    <button class="btn filtro" data-filtro="suporte">Suporte</button>
+                    <button class="btn filtro" data-filtro="atualizacoes">Atualizações</button>
+                </div>
+            </div>
+            <div class="display-grid noticias-layout">
+
+                <a href="#" data-categoria="atualizacoes">
+                    <article class="card">
+                        <img src="../img/noticia-1.jpg" alt="Double XP de 6 a 16 de novembro">
+                        <h3 class="card-titulo">Double XP de 6 a 16 de novembro</h3>
+                        <p class="card-paragrafo">
+                            O evento de XP em dobro do RuneScape 3 acontece de 6 a 16 de novembro. Boa hora para treinar
+                            aquela skill que está parada.
+                        </p>
+                        <p>Categoria: Atualizações</p>
+                    </article>
+                </a>
+
+                <a href="#" data-categoria="comunidade">
+                    <article class="card">
+                        <img src="../img/noticia-2.jpg" alt="Hardcore Worlds chegam ao Old School RuneScape">
+                        <h3 class="card-titulo">Hardcore Worlds chegam ao Old School RuneScape</h3>
+                        <p class="card-paragrafo">
+                            Os mundos Hardcore já estão no ar, com uma única vida e morte permanente. Um desafio novo
+                            para quem gosta de arriscar.
+                        </p>
+                        <p>Categoria: Comunidade</p>
+                    </article>
+                </a>
+
+                <a href="#" data-categoria="atualizacoes">
+                    <article class="card">
+                        <img src="../img/noticia-3.jpg" alt="Ghrazi Blood Knights ganha modo solo">
+                        <h3 class="card-titulo">Ghrazi Blood Knights ganha modo solo</h3>
+                        <p class="card-paragrafo">
+                            O modo solo desse conteúdo está previsto para 9 de novembro, depois do lançamento inicial só
+                            para duplas.
+                        </p>
+                        <p>Categoria: Atualizações</p>
+                    </article>
+                </a>
+
+                <a href="#" data-categoria="suporte">
+                    <article class="card">
+                        <img src="../img/noticia-4.jpg" alt="Migração para as contas Jagex começa em 17 de novembro">
+                        <h3 class="card-titulo">Migração para as contas Jagex começa em 17 de novembro</h3>
+                        <p class="card-paragrafo">
+                            A transição completa para as contas Jagex começa em 17 de novembro. Vale se organizar com
+                            antecedência para não perder o acesso.
+                        </p>
+                        <p>Categoria: Suporte</p>
+                    </article>
+                </a>
+
+                <a href="#" data-categoria="suporte">
+                    <article class="card">
+                        <img src="../img/noticia-5.jpg" alt="Itens de microtransação viram GP em 23 de novembro">
+                        <h3 class="card-titulo">Itens de microtransação viram GP em 23 de novembro</h3>
+                        <p class="card-paragrafo">
+                            Em 23 de novembro, esses itens serão convertidos em GP, com taxa menor do que a do evento
+                            Well of Restoration, que vai de 16 a 23 de novembro.
+                        </p>
+                        <p>Categoria: Suporte</p>
+                    </article>
+                </a>
+
+                <a href="#" data-categoria="comunidade">
+                    <article class="card">
+                        <img src="../img/noticia-6.jpg" alt="RuneScape Reignited chega em 2 de dezembro">
+                        <h3 class="card-titulo">RuneScape Reignited chega em 2 de dezembro</h3>
+                        <p class="card-paragrafo">
+                            A nova experiência inicial foi pensada para quem está começando ou voltando ao jogo. Um
+                            teste de assinatura para novos jogadores e retornantes vai de 2 a 12 de dezembro.
+                        </p>
+                        <p>Categoria: Comunidade</p>
+                    </article>
+                </a>
+
+            </div>
+
+            <div class="section-links">
+                <a href="#" class="btn btn-primario">Ver Mais</a>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <img src="../img/logo-branco.png" alt="Logo Marco'sTV_RS" title="Logo Marco'sTV_RS">
+        <p>&copy; Marco'sTV_RS - Desenvolvimento Web e IHC</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>
